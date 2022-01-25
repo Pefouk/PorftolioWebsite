@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faAngry, faMap, faClock } from '@fortawesome/free-solid-svg-icons';
+import { faBriefcase, faMap, faClock } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-home',
@@ -7,7 +7,7 @@ import { faAngry, faMap, faClock } from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  faAngry = faAngry;
+  faBriefCase = faBriefcase;
   faMap = faMap;
   faClock = faClock;
   constructor() { }
