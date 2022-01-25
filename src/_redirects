@@ -1,0 +1,2 @@
+# Redirect file for netlify
+/:lang/*    /:lang/index.html   200

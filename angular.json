@@ -9,7 +9,7 @@
         "locales": {
           "en": {
             "translation": "src/locale/messages.en.xlf",
-            "baseHref": ""
+            "baseHref": "/en"
           }
         }
       },
@@ -29,6 +29,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "localize" : true,
             "outputPath": "dist/",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -46,7 +47,6 @@
           },
           "configurations": {
             "production": {
-              "localize" : true,
               "outputPath": "dist/",
               "budgets": [
                 {

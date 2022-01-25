@@ -9,6 +9,7 @@
     "build:en": "ng build --configuration=en",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "netlify": "cp src/_redirects dist/_redirects",
     "i18n:extract": "ng extract-i18n --output-path src/locale"
   },
   "private": true,
