@@ -4,6 +4,15 @@
   "newProjectRoot": "projects",
   "projects": {
     "ng-portfolio": {
+      "i18n": {
+        "sourceLocale" : "fr",
+        "locales": {
+          "en": {
+            "translation": "src/locale/messages.en.xlf",
+            "baseHref": ""
+          }
+        }
+      },
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -37,6 +46,8 @@
           },
           "configurations": {
             "production": {
+              "localize" : true,
+              "outputPath": "dist/",
               "budgets": [
                 {
                   "type": "initial",
@@ -64,6 +75,11 @@
               "extractLicenses": false,
               "sourceMap": true,
               "namedChunks": true
+            },
+            "en": {
+              "localize": ["en"],
+              "outputPath": "dist/en/",
+              "i18nMissingTranslation": "error"
             }
           },
           "defaultConfiguration": "production"
@@ -76,6 +92,9 @@
             },
             "development": {
               "browserTarget": "ng-portfolio:build:development"
+            },
+            "en": {
+              "browserTarget": "ng-portfolio:build:en"
             }
           },
           "defaultConfiguration": "development"

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="fr-FR" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="9146506085105128494" datatype="html">
+        <source>Disponible dès aujourd&apos;hui</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <note priority="1" from="description">disponibilite</note>
+      </trans-unit>
+      <trans-unit id="8074581613011491598" datatype="html">
+        <source>Rennes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <note priority="1" from="description">ville</note>
+      </trans-unit>
+      <trans-unit id="2980050712864448343" datatype="html">
+        <source>Développeur full stack</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <note priority="1" from="description">poste</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

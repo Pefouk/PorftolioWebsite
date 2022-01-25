@@ -1,4 +1,16 @@
 #home {
     height: 100vh;
+}
+
+.desc {
     flex-direction: column;
+    .subtitle {
+        margin-top: 2.25rem;
+        @apply text-primary;
+        @apply text-4xl;
+        display: inline-flex;
+    }
+    fa-icon {
+        margin-right: 1rem;
+    }
 }

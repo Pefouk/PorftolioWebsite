@@ -1,6 +1,19 @@
-<div id="home" class="flex justify-center items-center">
-    <h1 class="text-8xl">Pefouk</h1>
-    <h2 class="text-4xl"><fa-icon [icon]="faClock"></fa-icon> Avaible now</h2>
-    <h2 class="text-4xl"><fa-icon [icon]="faAngry"></fa-icon> Web dev</h2>
-    <h2 class="text-4xl"><fa-icon [icon]="faMap"></fa-icon> Rennes</h2>
+<div id="home" class="flex">
+    <div class="w-2/4 justify-center flex items-center">
+        <h1 class="text-8xl">Pefouk</h1>
+    </div>
+    <div class="flex w-2/4 justify-center items-center desc">
+        <div class="subtitle">
+            <fa-icon [icon]="faClock"></fa-icon>
+            <p i18n="disponibilite">Disponible dès aujourd'hui</p>
+        </div>
+        <div class="subtitle">
+            <fa-icon [icon]="faMap"></fa-icon>
+            <p i18n="ville">Rennes</p>
+        </div>
+        <div class="subtitle">
+            <fa-icon [icon]="faAngry"></fa-icon>
+            <p i18n="poste">Développeur full stack</p>
+        </div>
+    </div>
 </div>
