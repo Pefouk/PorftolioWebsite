@@ -1,16 +1,40 @@
 #home {
     height: 100vh;
+    flex-wrap: wrap;
+}
+
+.profilePicture {
+    max-height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+.icons {
+    margin-top: 2.25rem;
+    @apply text-6xl;
+    text-align: center;
+    display: inline-flex;
+    &.primary {
+        @apply text-primary;
+    }
+    &.secondary {
+        @apply text-secondary;
+    }
 }
 
 .desc {
     flex-direction: column;
     .subtitle {
         margin-top: 2.25rem;
-        @apply text-primary;
         @apply text-4xl;
         display: inline-flex;
-    }
-    fa-icon {
-        margin-right: 1rem;
-    }
+        &.primary {
+            @apply text-primary;
+        }
+        &.secondary {
+            @apply text-secondary;
+        }
+        fa-icon {
+            margin-right: 1rem;
+        }
+        }
 }

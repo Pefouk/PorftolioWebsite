@@ -19,8 +19,8 @@ module.exports = {
       'gray-light': '#d3dce6',
       'white' : '#ffffff',
       'background': '#222222',
-      'primary': '#00A676',
-      'secondary': ''
+      'primary': '#58B09C',
+      'secondary': '#E9C46A'
     },
     fontFamily: {
       sans: ['Arial', 'sans-serif'],
