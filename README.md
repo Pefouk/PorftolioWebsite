@@ -1,27 +1,37 @@
 # NgPortfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.4.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/93352f65-3757-49e1-824e-48e243cb7bf2/deploy-status)](https://app.netlify.com/sites/pefoukcv/deploys)
+![Angular 13](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white) 
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) 
+![TailwindCss](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 
-## Development server
+Portfolio website made in Typescript/HTML/SCSS with Angular
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Installation  
 
-## Code scaffolding
+Clone this repo with Git  
+Then install dependancies with NPM
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Run
 
-## Build
+After cloning and intalling dependancies with NPM, run
+``` Bash
+npm run dev
+# or
+ng serve
+```
+This will start a developpement server under 
+`http://localhost:4200`
+with multiple dev tools such as HMR.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Build  
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Run 
+``` Bash
+npm run build
+# or
+ng build
+```
+to get a working build under 'Dist' dir
