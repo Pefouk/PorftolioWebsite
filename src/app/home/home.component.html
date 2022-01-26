@@ -1,16 +1,22 @@
 <div id="home" class="flex">
-    <div class="w-full lg:w-2/4 justify-center flex items-center desc pt-4 pb-12">
+    <div class="w-full lg:w-2/4 justify-center flex items-center desc pt-4 pb-12 px-12">
         <h1 class="text-8xl text-primary">Pefouk</h1>
         <div class="profilePicture">
             <img src="assets/Moi.jpg" alt="Photo de moi" class="object-scale-down h-full rounded-full">
         </div>
         <div class="justify-around flex w-8/12">
-            <a href="https://www.linkedin.com/in/jeremy-appriou/" class="icons"><fa-icon [icon]="faLinkedin"></fa-icon></a>
-            <a href="https://www.github.com/pefouk" class="icons"><fa-icon [icon]="faGithub"></fa-icon></a>
-            <a href="mailto:jeremy.appriou@gmail.com" class="icons"><fa-icon [icon]="faEnveloppe"></fa-icon></a>
+            <a href="https://www.linkedin.com/in/jeremy-appriou/" class="icons">
+                <fa-icon [icon]="faLinkedin"></fa-icon>
+            </a>
+            <a href="https://www.github.com/pefouk" class="icons">
+                <fa-icon [icon]="faGithub"></fa-icon>
+            </a>
+            <a href="mailto:jeremy.appriou@gmail.com" class="icons">
+                <fa-icon [icon]="faEnveloppe"></fa-icon>
+            </a>
         </div>
     </div>
-    <div class="flex w-full lg:w-2/4 lg:pl-12 pl-5 justify-center desc">
+    <div class="flex w-full lg:w-2/4 lg:px-12 px-5 justify-center desc">
         <h1 class="text-5xl">Qui suis-je :</h1>
         <div class="flex w-full items-baseline desc pl-12">
             <div class="subtitle primary">
@@ -27,8 +33,20 @@
             </div>
             <div class="subtitle primary">
                 <fa-icon [icon]="faClock"></fa-icon>
-                <p i18n="disponibilite" class="text-white">Disponible dès aujourd'hui</p>
+                <p i18n="disponibilite" class="text-white">Disponible dès aujourd'hui en CDI ou CDD</p>
             </div>
         </div>
+    </div>
+    <div class="flex w-full justify-center align-middle">
+        <a href="#moi">
+            <svg
+            version="1.1" id="arrow" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" fill="white" viewBox="0 0 330 330"
+                style="enable-background:new 0 0 330 330;" xml:space="preserve">
+                <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
+	c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393
+	s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z" />
+            </svg>
+        </a>
     </div>
 </div>

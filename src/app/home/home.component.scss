@@ -36,5 +36,12 @@
         fa-icon {
             margin-right: 1rem;
         }
-        }
+    }
+}
+#arrow {
+    height: 10vh;
+    transition: 500ms;
+    &:hover {
+        transform: rotate(2turn) scale(50);
+    }
 }
