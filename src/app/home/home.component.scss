@@ -26,6 +26,7 @@
         opacity: 0;
     }
 }
+
 .animation {
     &.left {
         animation: leftAnim 500ms ease-out 100ms 1 both;
