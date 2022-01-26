@@ -1,6 +1,14 @@
 #home {
-    height: 100vh;
+    min-height: 100vh;
     flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.animation {
+    transition: 2s;
+    &.left {
+        transform: translateX(50);
+    }
 }
 
 .profilePicture {
@@ -39,9 +47,35 @@
     }
 }
 #arrow {
-    height: 10vh;
+    height: 5vh;
     transition: 500ms;
     &:hover {
-        transform: rotate(2turn) scale(50);
+        transform: rotate(1turn) scale(1.1);
+    }
+}
+
+@keyframes slideLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-5000);
+    }
+    80% {
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideRight {
+    0% {
+        opacity: 0;
+        transform: translateX(5000);
+    }
+    80% {
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
     }
 }

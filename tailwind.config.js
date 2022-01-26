@@ -18,8 +18,8 @@ module.exports = {
       'gray': '#8492a6',
       'gray-light': '#d3dce6',
       'white' : '#ffffff',
-      'background': '#222222',
-      'primary': '#58B09C',
+      'background': '#2D2D2A',
+      'primary': '#C14953',
       'secondary': '#E9C46A'
     },
     fontFamily: {
