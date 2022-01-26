@@ -1,6 +1,37 @@
+@keyframes leftAnim {
+    0% {
+        transform: rotate(90deg) scale(0);
+    }
+    80% {
+        transform: rotate(0deg) scale(1.3);
+    }
+    100% {
+        transform: rotate(0deg) scale(1);
+    }
+}
+
+@keyframes rightAnim {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 #home {
-    height: 100vh;
+    min-height: 100vh;
     flex-wrap: wrap;
+}
+
+.animation {
+    transition: 2s;
+    &.left {  
+        animation: leftAnim 500ms ease-out 100ms 1 both;
+    }
+    &.right {  
+        animation: rightAnim 100ms ease-out 100ms 1 both;
+    }
 }
 
 .profilePicture {
@@ -39,9 +70,10 @@
     }
 }
 #arrow {
-    height: 10vh;
+    height: 5vh;
     transition: 500ms;
     &:hover {
-        transform: rotate(2turn) scale(50);
+        transform: rotate(1turn) scale(1.1);
     }
 }
+
