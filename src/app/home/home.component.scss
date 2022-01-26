@@ -25,7 +25,6 @@
 }
 
 .animation {
-    transition: 2s;
     &.left {  
         animation: leftAnim 500ms ease-out 100ms 1 both;
     }
