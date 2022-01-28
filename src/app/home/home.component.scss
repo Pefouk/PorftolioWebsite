@@ -61,6 +61,17 @@
     &.secondary {
         @apply text-secondary;
     }
+    &:hover {
+        transform: rotate(1turn);
+        transition: 400ms;
+        @apply text-primary;
+    }
+}
+
+.card {
+    padding-bottom: 2.25rem;
+    border-radius: 5px;
+    box-shadow: #3f3f3f 3px 3px 10px;
 }
 
 .desc {
