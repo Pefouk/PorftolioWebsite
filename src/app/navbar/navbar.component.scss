@@ -1,0 +1,7 @@
+.card {
+    border-radius: 5px;
+    box-shadow: #3f3f3f 3px 3px 10px;
+    &[a]:hover {
+        color: red;
+    }
+}
