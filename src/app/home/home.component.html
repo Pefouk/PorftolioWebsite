@@ -4,7 +4,7 @@
         <div class="profilePicture">
             <img src="assets/Moi.jpg" alt="Photo de moi" class="object-scale-down h-full rounded-full">
         </div>
-        <div class="justify-around flex w-8/12">
+        <div class="justify-around flex w-8/12 card">
             <a href="https://www.linkedin.com/in/jeremy-appriou/" class="icons">
                 <fa-icon [icon]="faLinkedin"></fa-icon>
             </a>
@@ -17,15 +17,16 @@
         </div>
     </div>
     <div class="animation right flex w-full lg:w-2/4 lg:px-12 px-5 justify-center desc">
-        <div class="flex w-full items-baseline desc pl-12">
+        <div class="flex w-full items-baseline desc pl-12 card">
             <div class="subtitle primary">
                 <fa-icon [icon]="faIdCard"></fa-icon>
                 <p class="text-white">Jeremy Appriou</p>
             </div>
             <div class="subtitle primary">
                 <fa-icon [icon]="faBriefCase"></fa-icon>
-                <p i18n="poste" class="text-white">Développeur web</p>
-                <p class="cursor text-white">|</p>
+                <div class="inline-flex flex-wrap">
+                    <p i18n="poste" class="text-white">Développeur web<span class="cursor">|</span></p>
+                </div>
             </div>
             <div class="subtitle primary">
                 <fa-icon [icon]="faMap"></fa-icon>
