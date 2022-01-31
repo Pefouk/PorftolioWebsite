@@ -76,20 +76,6 @@
 
 .desc {
     flex-direction: column;
-    .subtitle {
-        margin-top: 2.25rem;
-        @apply text-4xl;
-        display: inline-flex;
-        &.primary {
-            @apply text-primary;
-        }
-        &.secondary {
-            @apply text-secondary;
-        }
-        fa-icon {
-            margin-right: 1rem;
-        }
-    }
 }
 #arrow {
     height: 5vh;

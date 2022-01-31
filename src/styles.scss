@@ -1,3 +1,30 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+.subtitle {
+    margin-top: 2.25rem;
+    @apply text-2xl;
+    display: inline-flex;
+    &.primary {
+        @apply text-primary;
+    }
+    &.secondary {
+        @apply text-secondary;
+    }
+    fa-icon {
+        margin-right: 1rem;
+    }
+}
+
+.title {
+    margin-top: 2.25rem;
+    @apply text-4xl;
+    display: inline-flex;
+    &.primary {
+        @apply text-primary;
+    }
+    &.secondary {
+        @apply text-secondary;
+    }
+}
